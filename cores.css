@@ -1,5 +1,5 @@
 .dark-blue-bg {
-    background-color: #1F2438;
+    background-color: #121622;
   }
 
 .normal-blue-bg {
@@ -27,7 +27,7 @@
 
 
 .dark-blue {
-    color: #1F2438;
+    color: #121622;
   }
 
 .normal-blue {
@@ -37,6 +37,8 @@
 .light-blue {
     color: #59669E;
 }
+
+
 
 .dark-orange {
     color: #8E341F;
@@ -51,4 +53,37 @@
 }
 
 
+.btn-outline-normal-orange {
+    color: #8E341F;
+    border-color: #8E341F;
+}
+
+.btn-outline-normal-orange {
+    color: #FC5E3A;
+    border-color: #FC5E3A;
+}
+
+.btn-outline-normal-orange {
+    color: #EA694C;
+    border-color: #EA694C;
+}
+
+
+.btn-outline-normal-orange:hover {
+    color: #8E341F;
+    border-color: #8E341F;
+    background: #8E341F;
+}
+
+.btn-outline-normal-orange:hover {
+    color: #FC5E3A;
+    border-color: #FC5E3A;
+    background: #FC5E3A;
+}
+
+.btn-outline-normal-orange:hover {
+    color: #EA694C;
+    border-color: #EA694C;
+    background: #EA694C;
+}
 
