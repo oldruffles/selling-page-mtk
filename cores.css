@@ -1,0 +1,89 @@
+.bg-blue-3 {
+    background-color: #121622;
+  }
+
+.bg-blue-2 {
+    background-color: #2D3451;
+}
+
+.bg-blue-1 {
+    background-color: #59669E;
+}
+
+
+
+.bg-orange-3 {
+    background-color: #8E341F ;
+  }
+
+.bg-orange-2{
+    background-color: #FC5E3A;
+}
+
+.bg-orange-1 {
+    background-color: #EA694C;
+}
+
+
+
+.text-blue-3 {
+    color: #121622;
+  }
+
+.text-blue-2 { 
+    color: #2D3451;
+}
+
+.text-blue-1 {
+    color: #59669E;
+}
+
+
+
+.text-orange-3 {
+    color: #8E341F;
+  }
+
+.text-orange-2 {
+    color: #FC5E3A;
+}
+
+.text-orange-1 {
+    color: #EA694C;
+}
+
+
+.outline-orange-3 {
+    color: #8E341F;
+    border-color: #8E341F;
+}
+
+.outline-orange-2 {
+    color: #FC5E3A;
+    border-color: #FC5E3A;
+}
+
+.outline-orange-1 {
+    color: #EA694C;
+    border-color: #EA694C;
+}
+
+
+.outline-orange-3:hover {
+    color: #f8f9fa;
+    border-color: #8E341F;
+    background: #8E341F;
+}
+
+.outline-orange-2:hover {
+    color: #f8f9fa;
+    border-color: #FC5E3A;
+    background: #FC5E3A;
+}
+
+.outline-orange-1:hover {
+    color: #f8f9fa;
+    border-color: #EA694C;
+    background: #EA694C;
+}
+

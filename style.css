@@ -1,0 +1,247 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Roboto Condensed";
+  display: block;
+}
+
+
+h1{
+  font-size: 68px;
+  /*MUDAR O FONT SIZE PARA 110
+  ALTERAR TAMBÉM O EFEITO PARA APARECER UMA PALAVRA, DEPOIS A OUTRA, DEPOIS A OUTRA, MAS FATORE SEMPRE FICAR CENTRALIZADO ABAIXO*/
+  font-weight: 800;
+}
+
+h2{
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+/*INÍCIO DO COVER*/
+
+.cover {
+/*
+  background: url(images/cover.png);
+  @media(min-width: 786px;)
+  eight: 100vh;
+*/
+  padding: 60px 0;
+
+
+
+}
+
+.cover p {
+  text-align: center;
+  line-height: 1.55;
+  letter-spacing: -0.01rem;
+  max-width: 26.25rem;
+  margin: 0.9375rem auto;
+}
+
+.cover h1 {
+  text-align: center;
+  max-width: 42.5rem;
+  margin: 0.9375rem auto;
+  min-height: 250px;
+  }
+
+.cover  h1::after {
+    content: '|';
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink .7s infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .cover a{ 
+    color: #fff;
+    text-decoration: none;
+
+  }
+
+/*FIM DO COVER*/
+
+
+/*
+.carousel{
+min-height: 300px;
+}
+*/
+
+
+/*cor da estrela*/
+.checked {
+  color: orange;
+}
+
+
+/*Código dos mapas*/
+
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.lateral-direito {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo da div lateral */
+  z-index: 1; /* Para a div ficar por cima do iframe */
+}
+
+
+.lateral-esquerdo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo da div lateral */
+  z-index: 1; /* Para a div ficar por cima do iframe */
+}
+
+
+.unidade1{
+  background: url(images/unidade1.png);
+}
+
+.unidade2{
+  background: url(images/unidade2.png);
+}
+
+.unidade3{
+  background: url(images/unidade3.png);
+}
+
+.unidade4{
+  background: url(images/unidade4.png);
+}
+
+.unidade5{
+  background: url(images/unidade5.png);
+}
+
+
+
+
+
+
+
+
+.rodape1{
+  margin-top: 50px;
+  width: 100%;
+}
+
+.ordem{
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.paragrafoRodape{
+  font-size: 14px;
+  text-align: left;
+  
+}
+
+.paragrafoRodape a:hover{
+  transition: color 0.5s;
+}
+
+.pLineRodape{
+  width: 100px;
+  height: 3px;
+  margin-bottom: 15px;
+  padding: 0px;
+  background-color: #ffffff;
+  
+}
+
+.sobreMim h3,
+.contato h3,
+.redesSociais h3{
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.sobreMim{
+  float: left;
+  width: 380px;
+  margin: 0 auto;
+  margin-left: 20px;
+  padding: 0px;
+}
+
+.contato{
+  float: left;
+  width: 300px;
+  margin: 0 auto;
+  margin-left: 20px;
+  padding: 0px;
+}
+.contato a{
+  text-decoration: none;
+}
+
+.redesSociais{
+  float: left;
+  width: 200px;
+  margin: 0 auto;
+  margin-left: 20px;
+  padding: 0px;
+}
+
+
+.icon{
+  font-size: 20px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px;
+  padding: 10px 15px 10px 15px;
+  border: #ffffff solid 2px;   
+}
+
+.icon:hover{
+  transition: border 0.5s, color 0.5s;
+}
+
+
+footer nav{
+  margin-top: 50px;
+}
+
+.rodape2{
+  padding: 20px 0px 20px 0px;
+
+}
+.rodape2 p{
+  margin: 0 auto;
+  padding-left: 30px;
+  font-size: 16px;
+  width: 1080px;
+}
+
